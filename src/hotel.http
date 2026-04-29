@@ -1,0 +1,9 @@
+@hotel_HostAddress = http://localhost:5069
+
+GET {{hotel_HostAddress}}/seed/resetBookings
+Accept: application/json
+
+###
+GET {{hotel_HostAddress}}/seed/resetAllData
+Accept: application/json
+

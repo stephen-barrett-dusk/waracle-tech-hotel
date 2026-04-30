@@ -52,7 +52,7 @@ namespace hotel.Controllers
         }
 
         [HttpGet]
-        [Route("/{reference}")]
+        [Route("{reference}")]
         public async Task<IActionResult> Get(string reference)
         {
             var booking = await roomBookingService.GetBooking(reference);

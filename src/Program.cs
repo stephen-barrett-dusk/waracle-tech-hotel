@@ -36,8 +36,6 @@ try
     app.UseSwaggerUI();
     app.MapOpenApi();
 
-    app.UseHttpsRedirection();
-
     app.UseAuthorization();
 
     app.MapControllers();
